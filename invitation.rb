@@ -3,9 +3,10 @@
 # Try starting out with puts'ing a string.
 
 puts "What is the name of your party?"
-party_name = gsub.chomp
+party_name = gets.chomp
 puts "What is its date?"
-date = gsub.chomp
+date = gets.chomp
 
-guest_name = gsub.chomp
+
+guest_name = gets.chomp
 
