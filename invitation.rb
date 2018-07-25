@@ -23,4 +23,8 @@ guest_name = gets.chomp
 puts "Your invitation is below:"
 puts "Dear #{guest_name}, 
 
-You are cordially invited to #{party_name} on #{date} at #{time}"
+You are cordially invited to #{party_name} on #{date} at #{time}. Please RVSP by no later than #{rsvp}. 
+
+Sincerely, 
+
+#{host}"
